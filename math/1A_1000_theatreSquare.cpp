@@ -1,4 +1,5 @@
 #include <iostream>
+using ll = long long;
 
 int main() {
 	std::ios::sync_with_stdio(0);
@@ -15,8 +16,8 @@ int main() {
 		m += diff;
 	}
 
-	int cw = n / a;
-	int ch = m / a;
-	long long res = cw * ch;
+	ll cw = n / a;
+	ll ch = m / a;
+	ll res = cw * ch;
 	std::cout << res << std::endl;
 }
